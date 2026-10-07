@@ -1,0 +1,17 @@
+<!-- @dsCard group="Seções" height=560 width=1200 subtitle="Diferenciais numerados" -->
+<!doctype html>
+<html>
+<head><link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../bundle.css"><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+<style>body{margin:0;background:var(--surface-0);padding:24px;font-family:var(--font-sans)}</style></head>
+<body>
+<div class="gm"><div class="gm-grid" style="align-items:start">
+<div class="gm-col-5 gm-stack"><span class="gm-eyebrow gm-eyebrow--soft"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M9 14l-1 7 4-2 4 2-1-7"/></svg> Por que escolher o Gammon</span><h2 class="gm-h2">O que torna nossa <span class="gm-hl">formação única</span></h2><p class="gm-body gm-muted">Com mais de um século de história, oferecemos uma jornada educacional de excelência.</p></div>
+<div class="gm-col-7 gm-acc" id="acc">
+<div class="gm-acc__item is-open"><button class="gm-acc__head" aria-expanded="true">01. Do Berçário ao Vestibular</button><div class="gm-acc__panel"><div class="gm-acc__inner"><div class="gm-acc__content"><div class="gm-stack" style="gap:16px;align-items:flex-start"><p>O Gammon garante uma continuidade educativa de excelência, do berçário até a preparação para o ingresso na faculdade.</p><a class="gm-btn gm-btn--dark" href="#">Ver mais</a></div><div class="gm-photo"></div></div></div></div></div>
+<div class="gm-acc__item"><button class="gm-acc__head" aria-expanded="false">02. Infraestrutura Completa e Inovadora</button><div class="gm-acc__panel"><div class="gm-acc__inner"><div class="gm-acc__content"><p>Dois campi com laboratórios, quadras e áreas verdes.</p><div class="gm-photo"></div></div></div></div></div>
+<div class="gm-acc__item"><button class="gm-acc__head" aria-expanded="false">03. Excelência na Redação do ENEM</button><div class="gm-acc__panel"><div class="gm-acc__inner"><div class="gm-acc__content"><p>Primeiro lugar em Lavras na redação do ENEM.</p><div class="gm-photo"></div></div></div></div></div>
+<div class="gm-acc__item"><button class="gm-acc__head" aria-expanded="false">04. Robótica e Tecnologia</button><div class="gm-acc__panel"><div class="gm-acc__inner"><div class="gm-acc__content"><p>Robótica no currículo desde o Fundamental.</p><div class="gm-photo"></div></div></div></div></div>
+</div></div></div>
+<script>document.querySelectorAll('#acc .gm-acc__head').forEach(function(b){b.addEventListener('click',function(){var it=b.parentElement,open=it.classList.contains('is-open');document.querySelectorAll('#acc .gm-acc__item').forEach(function(x){x.classList.remove('is-open');x.firstElementChild.setAttribute('aria-expanded','false')});if(!open){it.classList.add('is-open');b.setAttribute('aria-expanded','true')}})});</script>
+</body>
+</html>

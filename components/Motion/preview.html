@@ -1,0 +1,16 @@
+<!-- @dsCard group="Movimento" height=330 width=1200 subtitle="Clique em Repetir para ver as entradas" -->
+<!doctype html>
+<html>
+<head><link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../bundle.css"><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+<style>body{margin:0;background:var(--surface-0);padding:24px;font-family:var(--font-sans)}</style></head>
+<body>
+<div class="gm"><div id="stage" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px">
+<div class="mcard"><div class="box gm-anim gm-anim--up"></div><b>fadeInUp</b><span>1.25s · ease · 40px</span></div>
+<div class="mcard"><div class="box gm-anim gm-anim--fade gm-d1"></div><b>fadeIn</b><span>1.25s · ease</span></div>
+<div class="mcard"><div class="box gm-anim gm-anim--left gm-d2"></div><b>fadeInLeft</b><span>1.25s · ease · 40px</span></div>
+<div class="mcard"><div class="mask gm-anim gm-anim--mask gm-d3">Muitas<br>descobertas.</div><b>maskUp (títulos)</b><span>1.25s · cubic-bezier(.22,1,.36,1)</span></div>
+</div><div style="margin-top:18px"><button class="gm-btn gm-btn--dark" id="replay">Repetir</button></div></div>
+<style>.mcard{display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--ink)}.mcard span{font-size:12px;color:var(--text-muted)}.box{height:120px;border-radius:15px;background:var(--green-forest)}.mask{height:120px;display:flex;align-items:flex-end;font-size:30px;line-height:1.05;font-weight:600;color:var(--green-vivid)}</style>
+<script>document.getElementById('replay').onclick=function(){document.querySelectorAll('#stage .gm-anim').forEach(function(e){e.style.animation='none';void e.offsetWidth;e.style.animation=''})};</script>
+</body>
+</html>

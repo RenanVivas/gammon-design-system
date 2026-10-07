@@ -1,0 +1,1 @@
+Logo oficial em duas tintas: `green-moss` (#366039) no monograma e em GAMMON, `green-brand` (#69b932) em INSTITUTO PRESBITERIANO e no arco. Use sobre `surface-0` ou `surface-100`, altura mínima 36px, respiro igual à altura do G. Não recolorir, não aplicar sobre foto ou verde. Ainda não há versão branca/negativa: peça o arquivo à escola antes de usar a logo sobre fundo escuro.
